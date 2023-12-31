@@ -60,3 +60,77 @@ body {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
+.signupSection {
+    background-image: linear-gradient(180deg, rgba(46, 157, 255, 0.5), rgba(46, 157, 255, 0.22)), url(https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a6617b93138_photo-1416359658663-73a3834895eb.jpg);
+    background-position: 0% 0%, 50% 50%;
+    background-size: auto, cover;
+    padding-top: 195px;
+    padding-bottom: 195px;
+    border-bottom: 4px solid #69b9ff;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.slogan {
+    margin-bottom: 40px;
+    color: #2e9dff;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 12px 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 4px;
+    background-color: #69b9ff;
+    transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: #2e9dff;
+
+}
+
+.hollow-button {
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.hollow-button:hover {
+    color: #2e9dff;
+    border: 1px solid #2e9dff;
+}
