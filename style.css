@@ -213,6 +213,7 @@ body {
 }
 
 .featureServices {
+
     background-color: #192024;
     text-align: center;
     padding: 80px 10px;
@@ -231,4 +232,68 @@ body {
 .featureServices img {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.tabSection {
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.tabMenu {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+}
+
+.button.tabB {
+    display: inline-flex;
+    color: #fff;
+    background-color: #8e8e9c;
+}
+
+.button.tabB:hover {
+    background-color: #2e80b6
+}
+
+#tabOne,
+#tabTwo,
+#tabThree {
+    display: none;
+}
+
+#tabTwo:target,
+#tabThree:target,
+#tabOne:target {
+    display: block;
+}
+
+.tabBox {
+    display: flex;
+    justify-content: center;
+}
+
+.tabBox img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tabBox h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #676770;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.tabBox p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
 }
