@@ -140,7 +140,7 @@ body {
     padding: 80px 10px;
 }
 
-.title h2 {
+.title {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 25px;
@@ -210,4 +210,25 @@ body {
     line-height: 25px;
     text-align: justify;
     text-align-last: center;
+}
+
+.featureServices {
+    background-color: #192024;
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.featureServices .toWhite {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.featureServices .toBlack {
+    background-color: transparent;
+    border: none;
+}
+
+.featureServices img {
+    width: 100%;
+    margin-bottom: 20px;
 }
