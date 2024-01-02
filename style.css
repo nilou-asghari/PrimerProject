@@ -38,7 +38,6 @@ body {
 .navLink {
     text-decoration: none;
     padding: 20px;
-
     display: inline-flex;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
@@ -133,4 +132,82 @@ body {
 .hollow-button:hover {
     color: #2e9dff;
     border: 1px solid #2e9dff;
+}
+
+.featureSection {
+    text-align: center;
+    background-color: #fff;
+    padding: 80px 10px;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #676770;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.titleSubhead {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #8e8e9c;
+
+
+}
+
+.featureBox {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+
+.whiteBox {
+
+    padding: 15px;
+    border: 1px solid #dcebf7;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.icon {
+    display: block;
+    width: 35%;
+    background-color: #69b9ff;
+
+    border-radius: 50%;
+    padding: 20px;
+    border: 10px solid #fff;
+    outline: 1px solid #2e9dff;
+    margin: 10px auto;
+}
+
+.whiteBox h3 {
+    font-size: 18px;
+    letter-spacing: 7px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #676770;
+}
+
+.whiteBox p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+    text-align-last: center;
 }
