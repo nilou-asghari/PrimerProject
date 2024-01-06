@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -237,6 +238,7 @@ body {
 .tabSection {
     padding: 80px 10px;
     text-align: center;
+    background-color: #fff;
 }
 
 .tabMenu {
@@ -296,4 +298,114 @@ body {
     font-size: 14px;
     line-height: 25px;
     font-weight: 300;
+}
+
+.footer {
+    background-color: #EDEFF2;
+}
+
+
+
+.f-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 35px;
+
+}
+
+.about {
+    align-items: center;
+}
+
+.footer {
+    margin-bottom: 2rem;
+}
+
+.footer h5 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #676770;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+
+}
+
+.f-size {
+    width: 33.33%;
+}
+
+.footerLink {
+
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+.footerLink:hover {
+    color: #668cad;
+}
+
+
+.links ul {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.links li {
+    margin-bottom: 6px;
+    border-bottom: 1px solid #d5d5e0;
+    padding-bottom: 8px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.footerLinkWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 6px;
+
+
+}
+
+.footerLinkWrapper img {
+    width: 20px;
+
+
+
+}
+
+.footerLinkWrapper a {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #d5d5e0;
+    width: 100%;
+
+}
+
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #383838;
+    color: #676770;
+    text-align: center;
 }
